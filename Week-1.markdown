@@ -1,17 +1,24 @@
-## Summary of Week 1 Lecture Material DBMS
+# Database Management Systems (Week 1 Notes)
 
-### Database Management Systems (DBMS)
+## 1. Introduction to DBMS
+A **Database Management System (DBMS)** is a software that provides systematic storage, retrieval, and management of data in an organized manner. It serves as an interface between the user and the database.
 
-### Instructor: Prof. Partha Pratim Das (IIT Kharagpur)
+### Why Databases?
+Databases are used to manage large amounts of data efficiently in various applications such as:
+- Banking (Transactions)
+- Airlines (Reservations)
+- Universities (Registrations, Grades)
+- E-commerce (Order Tracking)
+- Manufacturing (Inventory Management)
 
-### Key Points:
+### Drawbacks of File Systems
+Before DBMS, file systems were used to store data, but they had several limitations:
+- Data Redundancy & Inconsistency
+- Difficulty in Data Access
+- Data Isolation
+- Integrity Problems
+- Atomicity Issues
+- Concurrent Access Problems
+- Security Issues
 
-### 1. Importance of DBMS
-- Used in various applications:
-  - Banking (transactions)
-  - Airlines (reservations, schedules)
-  - Universities (registration, grades)
-  - Sales (customers, products, purchases)
-  - Manufacturing (inventory, supply chain)
-  - Human Resources (employee records, salaries)
-- Manages large amounts of data efficiently.
+---
