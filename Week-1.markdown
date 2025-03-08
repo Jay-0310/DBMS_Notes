@@ -23,3 +23,17 @@ Before the emergence of DBMS, file systems were used for data storage, but they 
 - **Security Issues**: Controlling access to sensitive information was difficult.
 
 ---
+
+## 2. DBMS Abstraction Levels
+To manage data efficiently, DBMS follows **three levels of abstraction**:
+- **Physical Level**: Describes how data is stored physically in files and disks.
+- **Logical Level**: Defines what data is stored and the relationships between data.
+- **View Level**: Provides different perspectives of the database for different users, ensuring security and ease of access.
+
+### University Database Example
+A university database may include:
+- **Entities**: Students, courses, instructors.
+- **Relationships**: Enrollment, course assignments.
+- **Operations**: Adding students, assigning grades, generating reports.
+
+---
