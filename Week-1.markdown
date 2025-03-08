@@ -22,3 +22,20 @@ Before DBMS, file systems were used to store data, but they had several limitati
 - Security Issues
 
 ---
+
+## 2. DBMS Abstraction Levels
+DBMS provides **three levels of abstraction**:
+- **Physical Level**: How data is stored physically.
+- **Logical Level**: Describes what data is stored and its relationships.
+- **View Level**: Describes only a part of the database (used for security or simplicity).
+
+---
+
+## 3. Data Models
+A **Data Model** is a collection of concepts used to describe data:
+- **Relational Model** (Focus of this course)
+- Entity-Relationship Model
+- Object-Based Models
+- Semi-Structured Models (XML)
+
+---
