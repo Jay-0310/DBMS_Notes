@@ -1,41 +1,25 @@
 # Database Management Systems (Week 1 Notes)
 
 ## 1. Introduction to DBMS
-A **Database Management System (DBMS)** is a software that provides systematic storage, retrieval, and management of data in an organized manner. It serves as an interface between the user and the database.
+A **Database Management System (DBMS)** is a software system that provides systematic storage, retrieval, and management of data in an organized manner. It serves as an interface between the user and the database, ensuring data integrity, security, and efficient access.
 
 ### Why Databases?
-Databases are used to manage large amounts of data efficiently in various applications such as:
-- Banking (Transactions)
-- Airlines (Reservations)
-- Universities (Registrations, Grades)
-- E-commerce (Order Tracking)
-- Manufacturing (Inventory Management)
+Databases are essential for managing structured and unstructured data in various applications, including:
+- **Banking**: Transactions, account management, fraud detection.
+- **Airlines**: Flight reservations, ticketing, and schedules.
+- **Universities**: Student registration, course enrollment, grading.
+- **E-commerce**: Order tracking, inventory management, recommendation systems.
+- **Manufacturing**: Production planning, inventory control, supply chain management.
+- **Human Resources**: Employee records, payroll, tax deductions.
 
 ### Drawbacks of File Systems
-Before DBMS, file systems were used to store data, but they had several limitations:
-- Data Redundancy & Inconsistency
-- Difficulty in Data Access
-- Data Isolation
-- Integrity Problems
-- Atomicity Issues
-- Concurrent Access Problems
-- Security Issues
-
----
-
-## 2. DBMS Abstraction Levels
-DBMS provides **three levels of abstraction**:
-- **Physical Level**: How data is stored physically.
-- **Logical Level**: Describes what data is stored and its relationships.
-- **View Level**: Describes only a part of the database (used for security or simplicity).
-
----
-
-## 3. Data Models
-A **Data Model** is a collection of concepts used to describe data:
-- **Relational Model** (Focus of this course)
-- Entity-Relationship Model
-- Object-Based Models
-- Semi-Structured Models (XML)
+Before the emergence of DBMS, file systems were used for data storage, but they had several drawbacks:
+- **Data Redundancy & Inconsistency**: Multiple copies of the same data lead to inconsistency and storage inefficiency.
+- **Difficulty in Data Access**: Retrieving specific data required custom programs.
+- **Data Isolation**: Different formats in multiple files made integration difficult.
+- **Integrity Problems**: Ensuring constraints (e.g., balance > 0) was challenging.
+- **Atomicity Issues**: Failure during a transaction could leave the database in an inconsistent state.
+- **Concurrent Access Problems**: Multiple users accessing data simultaneously could lead to conflicts.
+- **Security Issues**: Controlling access to sensitive information was difficult.
 
 ---
