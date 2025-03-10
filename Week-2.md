@@ -25,3 +25,12 @@
 - Subqueries in `WHERE` Clause  
 - `EXISTS` and `NOT EXISTS` Conditions  
 - Equi-Joins and Natural Joins
+
+### 6. **Database Modification Commands**  
+- `INSERT`, `DELETE`, and `UPDATE` Queries  
+- Altering Tables: `ALTER TABLE`  
+
+## Key Takeaways  
+- Understanding of relational query language and SQL basics  
+- Familiarity with database schema definition and query structures  
+- Exposure to aggregate operations and handling `NULL` values.
