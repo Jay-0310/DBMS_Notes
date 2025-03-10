@@ -1,8 +1,5 @@
 # Week 2 Lecture Summary - Database Management Systems  
 
-## Instructor  
-**Prof. Partha Pratim Das** – IIT Kharagpur  
-
 ## Topics Covered  
 
 ### 1. **Introduction to SQL**  
